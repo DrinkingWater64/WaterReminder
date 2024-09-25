@@ -191,6 +191,6 @@ C:/Users/aksha/Documents/GitHub/WaterReminder/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qwidget.h
  mdp:C:/Users/aksha/Documents/GitHub/WaterReminder/mainwindow.h
+C:/Users/aksha/Documents/GitHub/WaterReminder/main.cpp
 C:/Users/aksha/Documents/GitHub/WaterReminder/mainwindow.cpp
  uic:./ui_mainwindow.h
-C:/Users/aksha/Documents/GitHub/WaterReminder/main.cpp

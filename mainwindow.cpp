@@ -10,6 +10,9 @@ MainWindow::MainWindow(QWidget *parent)
     trayIcon = new QSystemTrayIcon(this);
     trayIcon->setIcon(QIcon(":/icons/treyIcon.jpg"));
 
+    connect(trayIcon, &QSystemTrayIcon::activated, this, &MainWindow::onTrayIconActivated);
+
+
     traymenu = new QMenu(this);
     QAction *quitaction = new QAction("Quit", this);
     connect(quitaction, &QAction::triggered, qApp, &QApplication::quit);
