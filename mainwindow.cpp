@@ -7,11 +7,21 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
+    ui->spinBox->setRange(1, 120);
+    ui->spinBox->setValue(10);
+    connect(ui->spinBox, QOverload<int>::of(&QSpinBox::valueChanged), this, &MainWindow::updateInterval);
+
+    setWindowTitle("Drink Water");
+
     trayIcon = new QSystemTrayIcon(this);
     trayIcon->setIcon(QIcon(":/icons/treyIcon.jpg"));
 
     connect(trayIcon, &QSystemTrayIcon::activated, this, &MainWindow::onTrayIconActivated);
 
+
+    reminderSound = new QSoundEffect(this);
+    reminderSound->setSource(QUrl("qrc:/sfx/water-drop-plop.wav"));
+    reminderSound->play();
 
     traymenu = new QMenu(this);
     QAction *quitaction = new QAction("Quit", this);
@@ -23,7 +33,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     reminderTimer = new QTimer(this);
     connect(reminderTimer, &QTimer::timeout, this, &MainWindow::showReminder);
-    reminderTimer->start(10000);
+    updateInterval(ui->spinBox->value());
 
     trayIcon->showMessage("Water Reminder", "Time to drink water", QSystemTrayIcon::Information, 3000);
 }
@@ -35,6 +45,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::showReminder(){
     trayIcon->showMessage("Water Reminder", "It's time to drink some water!", QSystemTrayIcon::Information, 3000);
+    reminderSound->play();
 }
 
 void MainWindow::onTrayIconActivated(QSystemTrayIcon::ActivationReason reason)
@@ -47,6 +58,11 @@ void MainWindow::onTrayIconActivated(QSystemTrayIcon::ActivationReason reason)
             hide();
         }
     }
+}
+
+void MainWindow::updateInterval(int value)
+{
+    reminderTimer->setInterval(value * 60000);
 }
 
 void MainWindow::closeEvent(QCloseEvent *event) {

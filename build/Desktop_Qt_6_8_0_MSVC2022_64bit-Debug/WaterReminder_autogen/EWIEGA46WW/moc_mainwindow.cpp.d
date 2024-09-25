@@ -176,11 +176,21 @@ C:/Users/aksha/Documents/GitHub/WaterReminder/build/Desktop_Qt_6_8_0_MSVC2022_64
   C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvectornd.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/QSoundEffect \
+  C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qaudio.h \
+  C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qsoundeffect.h \
+  C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qtmultimedia-config.h \
+  C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qtmultimediaexports.h \
+  C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qtmultimediaglobal.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMenu \
+  C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMessageBox \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QSystemTrayIcon \
+  C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qdialogbuttonbox.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qmenu.h \
+  C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qmessagebox.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qsystemtrayicon.h \
   C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtabwidget.h \

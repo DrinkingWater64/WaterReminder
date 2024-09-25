@@ -178,11 +178,21 @@ C:/Users/aksha/Documents/GitHub/WaterReminder/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qvectornd.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtGui/qwindowdefs_win.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/QSoundEffect
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qaudio.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qsoundeffect.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qtmultimedia-config.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qtmultimediaexports.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtMultimedia/qtmultimediaglobal.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMainWindow
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMenu
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QMessageBox
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/QSystemTrayIcon
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qdialog.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qdialogbuttonbox.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qmainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qmenu.h
+ mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qmessagebox.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qsizepolicy.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qsystemtrayicon.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtabwidget.h
@@ -191,6 +201,6 @@ C:/Users/aksha/Documents/GitHub/WaterReminder/mainwindow.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:C:/Qt/6.8.0/msvc2022_64/include/QtWidgets/qwidget.h
  mdp:C:/Users/aksha/Documents/GitHub/WaterReminder/mainwindow.h
-C:/Users/aksha/Documents/GitHub/WaterReminder/main.cpp
 C:/Users/aksha/Documents/GitHub/WaterReminder/mainwindow.cpp
  uic:./ui_mainwindow.h
+C:/Users/aksha/Documents/GitHub/WaterReminder/main.cpp

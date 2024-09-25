@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-946a195b654cfb20c611.json",
+					"jsonFile" : "directory-.-Debug-63a5ee13adc118e031c7.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "WaterReminder::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-WaterReminder-Debug-f2900f57a05a467bdd2a.json",
+					"jsonFile" : "target-WaterReminder-Debug-e0bab31b7085fbc1c8ae.json",
 					"name" : "WaterReminder",
 					"projectIndex" : 0
 				},

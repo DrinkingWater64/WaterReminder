@@ -2,4 +2,7 @@
     <qresource prefix="/icons">
         <file>treyIcon.jpg</file>
     </qresource>
+    <qresource prefix="/sfx">
+        <file>water-drop-plop.wav</file>
+    </qresource>
 </RCC>

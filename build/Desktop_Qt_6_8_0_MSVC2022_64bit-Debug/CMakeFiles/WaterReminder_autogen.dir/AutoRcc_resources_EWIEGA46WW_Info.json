@@ -7,7 +7,11 @@
 	"CROSS_CONFIG" : false,
 	"GENERATOR" : "Ninja",
 	"INCLUDE_DIR" : "C:/Users/aksha/Documents/GitHub/WaterReminder/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Debug/WaterReminder_autogen/include",
-	"INPUTS" : [ "C:/Users/aksha/Documents/GitHub/WaterReminder/treyIcon.jpg" ],
+	"INPUTS" : 
+	[
+		"C:/Users/aksha/Documents/GitHub/WaterReminder/water-drop-plop.wav",
+		"C:/Users/aksha/Documents/GitHub/WaterReminder/treyIcon.jpg"
+	],
 	"LOCK_FILE" : "C:/Users/aksha/Documents/GitHub/WaterReminder/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Debug/CMakeFiles/WaterReminder_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],

@@ -7,6 +7,9 @@
 #include <QAction>
 #include <QTimer>
 #include <QCloseEvent>
+#include <QMessageBox>
+#include <QSoundEffect>
+
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -28,11 +31,13 @@ protected:
 private slots:
     void showReminder();
     void onTrayIconActivated(QSystemTrayIcon::ActivationReason reason);
+    void updateInterval(int value);
 
 private:
     Ui::MainWindow *ui;
     QSystemTrayIcon *trayIcon;
     QMenu *traymenu;
     QTimer *reminderTimer;
+    QSoundEffect *reminderSound;
 };
 #endif // MAINWINDOW_H
