@@ -1,0 +1,12 @@
+# ninja log v5
+6	374	7489737043581893	WaterReminder_autogen/timestamp	87cc923da8e93097
+6	374	7489737043581893	WaterReminder_autogen/mocs_compilation.cpp	87cc923da8e93097
+6	374	7489737043581893	C:/Users/aksha/Documents/GitHub/WaterReminder/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/WaterReminder_autogen/timestamp	87cc923da8e93097
+6	374	7489737043581893	C:/Users/aksha/Documents/GitHub/WaterReminder/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/WaterReminder_autogen/mocs_compilation.cpp	87cc923da8e93097
+377	505	7489737045365127	WaterReminder_autogen/EWIEGA46WW/qrc_resources.cpp	8ef7405ef62314a6
+377	505	7489737045365127	C:/Users/aksha/Documents/GitHub/WaterReminder/build/Desktop_Qt_6_8_0_MSVC2022_64bit-Release/WaterReminder_autogen/EWIEGA46WW/qrc_resources.cpp	8ef7405ef62314a6
+515	729	7489737047637409	CMakeFiles/WaterReminder.dir/WaterReminder_autogen/EWIEGA46WW/qrc_resources.cpp.obj	bc96bc98401f9530
+507	1678	7489737057129439	CMakeFiles/WaterReminder.dir/main.cpp.obj	b751c348f30fce49
+505	1718	7489737057499501	CMakeFiles/WaterReminder.dir/WaterReminder_autogen/mocs_compilation.cpp.obj	8769612f36929dcc
+511	1791	7489737058234763	CMakeFiles/WaterReminder.dir/mainwindow.cpp.obj	6ec746adb4a5912b
+1791	1893	7489737059170532	WaterReminder.exe	22231a4c73e89590

@@ -5,6 +5,8 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+    setFixedSize(300, 150);
+
     ui->setupUi(this);
 
     ui->spinBox->setRange(1, 120);
